@@ -1,0 +1,417 @@
+/* #1d3557
+#457b9d
+#8EB5CD
+#B8D1E0
+#F1F6F9
+#FFFFFF
+#31576F
+#274659
+*/
+*{
+    padding: 0rem;
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+    font-family: 'Almarai', sans-serif;
+    color:#1d3557 ;
+    font-size: 100%;
+    line-height: 1.5em;
+    background-color: #F1F6F9;
+}
+section{
+    padding: 4rem 0;
+}
+button{
+    font-family: 'Almarai', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #457b9d;
+}
+a:hover {
+    color: #1d3557;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+.btn{
+    background-color: #B8D1E0;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.btn:hover{
+
+    background-color:#7394a9 ;
+    font-size: 1. ;
+}
+.btn-small{
+    background-color: #b8d1e0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.btn-small:hover{
+    background-color:#7394a9 ;
+    font-size: 1rem;
+}
+.menu-filter-2 {
+    float: left;
+    font-weight: bold;
+}
+.container{
+    
+    width: 980px;
+    margin: 0 auto;
+}
+.row{
+    background-color: #F1F6F9;
+    
+}
+.row-menu-product{
+    background-color: rgb(226, 235, 246);
+
+}
+header{
+    background-color: #F1F6F9;
+   
+}
+/* heeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeder */
+header .logo{
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: -0.5rem;
+}
+.logo img {
+    height: 4rem;
+    margin-top: 1rem ;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: -1rem;
+}
+
+header .nav-list{
+    display: inline-block;
+    float:left;
+    padding-top: 1rem;
+}
+header .nav-list li{
+    display: inline-block;
+    margin: 1rem;
+}
+header .nav-list li .active{
+    color: #32353b;
+} 
+header .nav-list li .active:hover{
+    font-size: 1.5rem;
+}
+.col-1-2,
+.col-1-3,
+.col-1-4{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+.col-1-2{
+    width: 50%;
+}
+.col-1-3{
+    width: 30%;
+}
+.col-1-4{
+    width: 25%;
+}
+/* head
+ */
+/* .head-foto{
+width: 50%;
+padding-right: 50%;
+ }
+.col-1-2-head-info{
+    float: right;
+    padding-top: 30%;
+}
+.col-1-2-head-foto{
+    float: left;
+}
+.col1-2-head-info {
+padding-top: 5rem;
+} */
+.head-foto {
+    width: 100%;
+    padding-top: 25%;
+    padding-right: 30%;
+    border-radius: 50%;
+}
+.head-info{
+    padding-top: 20%;
+}
+.head-info h1{
+padding-right: 50%;
+font-size: 2rem;
+margin-bottom: 1rem;
+}
+.sup-header{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #1d3557;
+    
+}
+.sup-text{
+    font-size: 1rem;
+    font-weight:100;
+    margin: 1.5rem 0;
+    padding-left: 0.5rem;
+}
+
+
+/* advantege */
+#advantege h2{
+  text-align: center;
+  margin-bottom: 4rem ;
+  font-size: 2rem;
+} 
+#advantege .col-1-3{
+    margin: 1rem;
+    background-color: #F1F6F9;
+    padding: 0 1rem;
+    text-align: center;
+    border: #31576F 1px solid;
+    border-radius: 1rem;
+    
+}
+#advantege .row .col-1-3{
+    background-color: #a1b0b9;
+}
+#advantege .col-1-3 img{
+    height: 4rem;
+    padding-top: 0.5rem;
+}
+#advantege .col-1-3 h3{
+    margin: 1rem 0;
+    font-weight: bold;
+}
+#advantege .col-1-3 p{
+    color: #274659;
+    padding: 0.5rem;
+}
+/* menu */
+#menu h2{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.menu-filters{
+    margin: 3rem 0 2rem 0;
+}
+
+
+#menu .product-1{
+    position: relative;
+    margin: 0.5rem;
+    border: #31576F 1px solid;
+    border-radius: 2rem;
+    overflow: hidden;
+    height: 15rem;
+
+}
+#menu .col-1-4 img{
+    width:100%;
+    position: absolute;
+    
+}
+.product-info{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #F1F6F9;
+    padding: 1rem 1rem;
+    border-radius: 15px;
+    
+}
+.product-info h3{
+    color: #32353b;
+    padding: 0.5.rem 1rem;
+    font-size: 20px;
+    font-weight: bold ;
+}
+.product-info span{
+    color: #457b9d;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    display: inline-block;
+}
+.product-info button{
+    float: left;
+    font-size: 1.5rem;
+    border: 2px solid #32353b;
+    border-radius: 50px;
+    width: 3rem;
+    position: relative;
+    top: auto;
+    margin: auto;
+    font-weight: bold;
+}
+/* * cta* */
+#cta h2{
+    text-align: center;
+    padding: 2rem ;
+    font-size: 2rem;
+}
+.row-book{
+    background-image: url("../images/reservation.png");
+    background-size: cover;
+    background-position: center center;
+}
+.book-box {
+    background-color: #9ebed2c3;
+    border-radius: 20px 0 0 20px;
+    width: 60%;
+}
+#cta .book-box .form-group{
+    display: inline-block;
+    padding-right: 1rem;
+    padding-bottom: 1.5rem;
+    font-weight: bold;
+}
+#cta button.btn{
+    display: block;
+    text-align: center;  
+}
+/* **review** */
+#review h2{
+    text-align: center;
+    font-size: 2rem;
+    margin: 3rem ;
+}
+#review .col-1-3{
+    margin: 1rem;
+    background-color: rgb(188, 200, 206);
+    padding: 01rem 1rem;
+    text-align: center;
+    border: 1px solid #8d8c90;
+    border-radius: 1rem;
+}
+#review h4{
+    
+    margin-bottom: 0.1rem;
+}
+#review small{
+    
+    color: #68686a;
+}
+#review p{
+    color: #111213;
+    margin-top: 0.75rem;
+}
+#review .col-1-3 .user-img .user-data{
+   display: inline-block;
+   margin-right: 0.5rem;
+}
+#review .col-1-3 .user-img img{
+    width: 4rem;
+   
+    border-radius: 50%;
+    display: inline-block;
+}
+#review .info .star{
+    text-align: left;
+}
+#review .info .star img{
+    width: 1rem;
+    margin-top: 1rem;
+}
+#review .three-dots{
+    text-align: center;
+}
+#review .three-dots span{
+    background-color: #8f9296;
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0 0.25rem;
+
+}
+#review .three-dots span.active{
+    background-color: #457b9d;
+}
+#contact h2{
+    text-align: center;
+    font-size: 2rem;
+    margin: 1rem ;
+}
+#contact .container{
+    width: 70%;
+    border: #31576F 1px solid;
+    border-radius: 2rem;
+    position: relative;
+}
+#contact .contact-info{
+    width: 60%;
+    display: inline-block;
+    padding: 0.5rem 1rem 1rem;
+    color: #4d4d4f;
+}
+
+#contact .contact-cta{
+    display: inline-block;
+    position: absolute;
+    left: 10%;
+    top: 60%;
+}
+footer .col-1-4{
+    margin-top: 2rem;
+}
+footer .footer-links.logo{
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: -0.5rem;
+
+}
+ 
+ footer .media-links {
+    margin: 1rem;
+ }
+ footer .media-links a{
+    margin: 0.25rem;
+    cursor: pointer;
+ }
+ footer .footer-links.media-links img{
+   
+     height: 4rem;
+     margin-top: 1rem ;
+     margin-left: 1rem;
+     margin-right: 1rem;
+     margin-bottom: -1rem;
+ }
+ 
+footer h3 {
+margin-bottom: 1rem;
+ }
+ footer .footer-copy{
+    background-color: #d9d9d9;
+    margin-top: 2rem;
+ }
+ footer .footer-copy p{
+
+     text-align: center;
+ }
+ footer .footer-copy p a{
+    color: #6e6f70;
+    cursor: pointer;
+ }
